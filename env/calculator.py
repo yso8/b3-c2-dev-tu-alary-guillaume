@@ -73,5 +73,9 @@ class Calculator:
 
                 operand_stack.append(result)
 
+        # On retourne & print le résultat
+        print("")
         print(str(result))
+        print("")
+        
         return operand_stack[0]
