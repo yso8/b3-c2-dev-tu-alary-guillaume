@@ -67,6 +67,8 @@ class Calculator:
                 elif token == "*":
                     result = operand1 * operand2
                 elif token == "/":
+                    if operand2 == 0:
+                        return "Division par zéro impossible"
                     result = operand1 / operand2
                 elif token == "^":
                     result = operand1 ** operand2
