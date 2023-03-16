@@ -19,7 +19,7 @@ class Calculator:
         
         output_queue = []
         operator_stack = []
-        operator_precedence = {"+": 1, "-": 1}
+        operator_precedence = {"+": 1, "-": 1, "*": 2, "/": 2}
 
         for token in tokens:
             if token.isdigit() or "." in token:
@@ -49,6 +49,10 @@ class Calculator:
                     result = operand1 + operand2
                 elif token == "-":
                     result = operand1 - operand2
+                elif token == "*":
+                    result = operand1 * operand2
+                elif token == "/":
+                    result = operand1 / operand2
                 
                 operand_stack.append(result)
 
