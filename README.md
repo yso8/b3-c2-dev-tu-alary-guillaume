@@ -53,4 +53,10 @@ coverage tests/test_calculator.py
 coverage html 'qui va générer un compte-rendu
 ```
 
+## Tests
+
+'à compléter
+
+
+
 **Free Software, Hell Yeah!**
