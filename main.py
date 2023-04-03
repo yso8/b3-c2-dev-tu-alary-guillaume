@@ -1,5 +1,5 @@
-from calculator import *
-from Include.colors import bcolors
+from modules.calculator import *
+from modules.colors import bcolors
 import os
 
 def cls():

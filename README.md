@@ -44,13 +44,13 @@ py main.py
 
 To run the tests :
 ```sh
-py tests/test_calculator.py
+py -m tests.test_calculator.py
 ```
 
 To use coverage :
 ```sh
-coverage tests/test_calculator.py
-coverage html 'qui va générer un compte-rendu
+py -m coverage run .\tests\test_calculator.py
+py -m coverage html .\tests\test_calculator.py
 ```
 
 ## Tests
