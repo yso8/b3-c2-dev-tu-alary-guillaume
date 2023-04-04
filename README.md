@@ -1,6 +1,6 @@
 ## Calculate - by yso8 & louisalr
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![Pipeline Status](https://gitlab.com/ys8o/b3-c2-dev-tu-alary-guillaume/badges/main/pipeline.svg)](https://gitlab.com/ys8o/b3-c2-dev-tu-alary-guillaume/-/pipelines)
 
 This calculator includes unit tests & an allocated Jenkins pipeline.
 
