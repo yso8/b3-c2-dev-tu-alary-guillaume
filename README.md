@@ -69,7 +69,7 @@ test-job:
 
 ## Jenkins
 
-to see the Jenkins pipeline, look at the pdf available ('integration-continu.pdf') in the repository
+To see the Jenkins pipeline, look at the pdf available ('integration-continu.pdf') in the repository
 
 
 **Free Software, Hell Yeah!**
