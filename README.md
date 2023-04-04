@@ -55,7 +55,7 @@ py coverage html test_calculator.py
 The gitlab repository : https://gitlab.com/ys8o/b3-c2-dev-tu-alary-guillaume
 
 Test pipeline on gitlab : .gitlab-ci.yml
-```json
+```yml
 stages:
   - test
 
