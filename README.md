@@ -50,10 +50,21 @@ py coverage run test_calculator.py
 py coverage html test_calculator.py
 ```
 
-## Tests
+## GitLab
 
-'à compléter
+The gitlab repository : https://gitlab.com/ys8o/b3-c2-dev-tu-alary-guillaume
 
+Test pipeline on gitlab : .gitlab-ci.yml
+```json
+stages:
+  - test
 
+test-job: 
+  stage: test
+  image: python:alpine3.16
+  script:
+    - python test_calculator.py
+
+```
 
 **Free Software, Hell Yeah!**
