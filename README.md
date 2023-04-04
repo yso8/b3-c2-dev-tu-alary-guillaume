@@ -12,10 +12,7 @@ Python powered by Coverage/UnitTest
 #### 1. <ins>Calculation functionality</ins> :
 ![image](https://user-images.githubusercontent.com/73800791/224673821-fa03d434-d274-49b2-a2e8-42907405c347.png)
 
-#### 2. <ins>Test functionality</ins> : 
-'to be implemented 
-
-#### 3. <ins>Display of credits</ins> : 
+#### 2. <ins>Display of credits</ins> : 
 ![image](https://user-images.githubusercontent.com/73800791/224674003-f5efc150-017c-4265-b5ce-0c1925e2e792.png)
 
 ## Documentation
@@ -44,13 +41,13 @@ py main.py
 
 To run the tests :
 ```sh
-py -m tests.test_calculator.py
+py test_calculator.py
 ```
 
 To use coverage :
 ```sh
-py -m coverage run .\tests\test_calculator.py
-py -m coverage html .\tests\test_calculator.py
+py coverage run test_calculator.py
+py coverage html test_calculator.py
 ```
 
 ## Tests

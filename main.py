@@ -25,9 +25,8 @@ def afficher_logo():
 def afficher_menu():
     print("------------------------------------")
     print("1. Calculer")
-    print("2. Tester")
-    print("3. Crédits")
-    print("4. Quitter")
+    print("2. Crédits")
+    print("3. Quitter")
     print("------------------------------------")
     print("")
 
@@ -43,15 +42,11 @@ def main():
         Calculator.calculate(op)
         main()
     elif choice == "2":
-        # à implémenter
-        main()
-    elif choice == "3":
-        # à implémenter
         print("")
         print("( ͡• ͜ʖ ͡•) - github : " + bcolors.OKBLUE + "\033[4myso8\033[0m" + bcolors.ENDC + " & " + bcolors.OKGREEN + "\033[4mlouisalr\033[0m" + bcolors.ENDC)
         print("")
         main()
-    elif choice == "4":
+    elif choice == "3":
         print("")
         print("Fermeture du programme, à bientôt !")
         print("")
